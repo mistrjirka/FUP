@@ -114,7 +114,7 @@ Your file has to be called `convexhull.rkt` and must provide the function
 _**Hint \#2 (Polar Angle)**_
 In Scheme, you can compute the polar angle of a vector $\vec v=(x,y)$ with
 ```Scheme
-(atan y x)  ; note the argument order!
+(atan2 y x)  ; note the argument order!
 ```
 Computing the polar angle like above will result in $\varphi\in(-\pi,\pi)$.
 You may want to shift the output by adding $2\pi$ to negative angles in order
